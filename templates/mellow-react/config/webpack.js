@@ -31,7 +31,8 @@ module.exports.webpack = {
     alias: {
       '~': path.resolve(__dirname, '..', 'assets'),
       '@': path.resolve(__dirname, '..', 'assets', 'js'),
-      components: path.resolve(__dirname, '..', 'assets', 'js', 'components')
+      components: path.resolve(__dirname, '..', 'assets', 'js', 'components'),
+      MellowIcons: path.resolve(__dirname, '..', 'assets', 'js', 'components', 'MellowIcons'),
     }
   },
 
